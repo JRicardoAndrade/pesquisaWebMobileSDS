@@ -56,7 +56,7 @@ const Charts = () => {
                         <Chart
                          options={barOptions}
                          type="bar"
-                         width="900"
+                         width="700"
                          height="650"
                          series={[{ data: barCharData }]}
                          />
