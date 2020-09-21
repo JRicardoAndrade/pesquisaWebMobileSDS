@@ -20,8 +20,7 @@ const initialPieData ={
     series: []
 }
 
-const BASE_URL = 'http://localhost:8080'
-
+const BASE_URL = 'https://curso-semana-dev-sup-ricardo.herokuapp.com';
 const Charts = () => {
     const [barCharData, setBarChartData] = useState<BarChartData[]>([]);
     const [platfotmData, setPlatformData] = useState<PieChartData>(initialPieData);
